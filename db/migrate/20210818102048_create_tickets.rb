@@ -4,6 +4,7 @@ class CreateTickets < ActiveRecord::Migration[6.1]
       t.string :title
       t.text :description
       t.date :date
+      t.boolean :open
 
       t.timestamps
     end
