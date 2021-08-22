@@ -6,4 +6,6 @@
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
 
-task = Ticket.create(title: "Debug ticket controller", date: '2016-06-03', description: "debug index action is controller", open: true)
+5.times do
+    Ticket.create(title: "Debug ticket controller", date: '2016-06-03', description: "debug index action is controller", open: true)
+end 
